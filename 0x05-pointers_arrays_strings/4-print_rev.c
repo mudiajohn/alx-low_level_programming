@@ -11,7 +11,7 @@ int o;
 while (*s != '\0')
 {
 longi++;
-s++
+s++;
 }
 s--;
 for (o = longi; o > 0; o--)
