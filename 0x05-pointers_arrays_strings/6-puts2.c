@@ -13,7 +13,7 @@ char *y = str;
 while (*y != '\0')
 {
 y++;
-longi++
+longi++;
 }
 t = longi - 1;
 for (o = 0 ; o <= t ; o++)
