@@ -1,5 +1,5 @@
 #include "main.h"
-void _puts(char *str)
+void _puts(char *str);
 #include<stdio.h>
 /**
  * main - Entry point
@@ -8,6 +8,6 @@ void _puts(char *str)
  */
 int main(void)
 {
-void _puts("\"Programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
