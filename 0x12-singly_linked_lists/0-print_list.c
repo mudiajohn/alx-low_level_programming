@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
+#include <stdlib.h>
 /**
 * print_list - prints all the elements of a linked list
 * @h: pointer to the list_t list to print
@@ -14,8 +15,8 @@ if (!h->str)
 printf("[0] (nil)\n");
 else
 printf("[%u] %s\n", h->len, h->str);
-h = h->next;
 s++;
+h = h->next;
 }
 return (s);
 }
